@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "311021410716",
+    "project_id": "empty-chair-e2a44",
+    "storage_bucket": "empty-chair-e2a44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311021410716:android:4b96cc17364ec7ce10d059",
+        "android_client_info": {
+          "package_name": "com.emptychair.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311021410716-hpmthdeq81ao7jqmlef71p9ubtnkg9pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Vhj0hgLkzOgSnu65V5VR_AdCq7BoA7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311021410716-hpmthdeq81ao7jqmlef71p9ubtnkg9pn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311021410716-c1lovdl9t2t1lu43eivik6f8kt0vbf0b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.emptychair.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311021410716:android:555e7395b3e1765910d059",
+        "android_client_info": {
+          "package_name": "com.queue.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311021410716-hpmthdeq81ao7jqmlef71p9ubtnkg9pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Vhj0hgLkzOgSnu65V5VR_AdCq7BoA7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311021410716-hpmthdeq81ao7jqmlef71p9ubtnkg9pn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311021410716-c1lovdl9t2t1lu43eivik6f8kt0vbf0b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.emptychair.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

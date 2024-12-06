@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487406872167",
+    "project_id": "empt-ba252",
+    "storage_bucket": "empt-ba252.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487406872167:android:d3a4aef4ca0acfb9f816c2",
+        "android_client_info": {
+          "package_name": "com.emptychair.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487406872167-8tsp0puceckov4hig8mkotjdb6rft6oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7GRY9AHi6-W4gDdFE1pEZrPmUCaERQEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487406872167-8tsp0puceckov4hig8mkotjdb6rft6oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

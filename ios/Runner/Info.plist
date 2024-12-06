@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>MT Chair</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>emptychair</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>EmptyChair want to access your Music to use songs</string>
+	<key>NSBluetoothAlwaysUsageDescript</key>
+	<string>EmptyChair want to access your Bluetooth to send picture</string>
+	<key>NSBluetoothPeripheralUsageDesc</key>
+	<string>EmptyChair want to access your Bluetooth to send picture</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>EmptyChair want to access your calander to add date of birth</string>
+	<key>NSCameraUsageDescription</key>
+	<string>EmptyChair want to use your camera to upload profile pics</string>
+	<key>NSContactsUsageDescription</key>
+	<string>EmptyChair want to access your contacts to notify the user</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>EmptyChair want to use your location to find your address</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>EmptyChair want to access your Microphone to make voice call</string>
+	<key>NSMotionUsageDescription</key>
+	<string>EmptyChair want to access your Motion.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>EmptyChair want to access your gallery to upload profile pics</string>
+	<key>NSSpeechRecognitionUsageDescri</key>
+	<string>EmptyChair want to access your SpeechRecognition to increase experiance of voice call.</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

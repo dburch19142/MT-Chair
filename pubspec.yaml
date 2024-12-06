@@ -1,0 +1,54 @@
+name: emptychair
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.4
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+3
+  dropdown_button2: ^2.3.9
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  firebase_crashlytics: ^3.4.14
+  firebase_database: ^10.5.5
+  firebase_storage: ^11.6.5
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.6
+  get: ^4.6.5
+  google_fonts: ^4.0.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  iconsax: ^0.0.8
+  image_picker: ^0.8.7+1
+  intl: ^0.17.0
+  mask_text_input_formatter: ^2.4.0
+  material_design_icons_flutter: ^6.0.7096
+  url_launcher: ^6.3.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    # - assets/icons/
+    # - assets/svgs/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/launcher.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  # flutter pub run flutter_launcher_icons
