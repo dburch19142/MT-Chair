@@ -10,7 +10,7 @@ Widget appointmentDialog(BuildContext context,
     {required Function() onNo,
     required Function() onYes,
     required bool isLoading}) {
-  // String bg = Hive.box('empty').get('bg', defaultValue: '');
+  // String bg = Hive.box('mt-chair').get('bg', defaultValue: '');
   return AlertDialog(
     shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(Radius.circular(25.0))),
@@ -40,7 +40,7 @@ class AppointmentWidget extends StatefulWidget {
 class _AppointmentWidgetState extends State<AppointmentWidget> {
   @override
   Widget build(BuildContext context) {
-    String logo = Hive.box('empty').get('logo', defaultValue: '');
+    String logo = Hive.box('mt-chair').get('logo', defaultValue: '');
     return AlertDialog(
       content: SizedBox(
         width: width(context) * .8,

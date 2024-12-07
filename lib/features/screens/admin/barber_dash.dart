@@ -16,8 +16,8 @@ class BarberDashboard extends StatefulWidget {
 }
 
 class _BarberDashboardState extends State<BarberDashboard> {
-  String logo = Hive.box('empty').get('logo', defaultValue: '');
-  String bg = Hive.box('empty').get('bg', defaultValue: '');
+  String logo = Hive.box('mt-chair').get('logo', defaultValue: '');
+  String bg = Hive.box('mt-chair').get('bg', defaultValue: '');
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -10,7 +10,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   await Hive.initFlutter();
-  await Hive.openBox('empty');
+  await Hive.openBox('mt-chair');
   runApp(const MyApp());
 }
 

@@ -31,7 +31,7 @@ class DatabaseService {
     bool request = await FireCollections.settingsRef.doc('settings').update({
       'bg': uploadUrl,
     }).then((value) async {
-      await Hive.box('empty').put('bg', uploadUrl);
+      await Hive.box('mt-chair').put('bg', uploadUrl);
       return true;
     }).catchError((error) {
       return false;
@@ -44,7 +44,7 @@ class DatabaseService {
     bool request = await FireCollections.settingsRef.doc('settings').update({
       'logo': uploadUrl,
     }).then((value) async {
-      await Hive.box('empty').put('logo', uploadUrl);
+      await Hive.box('mt-chair').put('logo', uploadUrl);
       return true;
     }).catchError((error) {
       return false;

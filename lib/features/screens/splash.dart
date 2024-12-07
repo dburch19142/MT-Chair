@@ -23,8 +23,8 @@ class _SplashScreenState extends State<SplashScreen> {
         email: 'admin@emptychair.app', password: 'admin123');
     await FireCollections.settingsRef.doc('settings').get().then((value) async {
       log(value.toString());
-      await Hive.box('empty').put('bg', value['bg']);
-      await Hive.box('empty').put('logo', value['logo']);
+      await Hive.box('mt-chair').put('bg', value['bg']);
+      await Hive.box('mt-chair').put('logo', value['logo']);
     });
     await Future.delayed(const Duration(seconds: 5))
         .then((value) => {Get.toNamed(AppPages.signIn)});
@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // String logo = Hive.box('empty').get('logo', defaultValue: '');
+    // String logo = Hive.box('mt-chair').get('logo', defaultValue: '');
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(

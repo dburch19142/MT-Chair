@@ -19,8 +19,8 @@ class ForgetPasswordScreen extends StatefulWidget {
 }
 
 class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
-  String logo = Hive.box('empty').get('logo', defaultValue: '');
-  String bg = Hive.box('empty').get('bg', defaultValue: '');
+  String logo = Hive.box('mt-chair').get('logo', defaultValue: '');
+  String bg = Hive.box('mt-chair').get('bg', defaultValue: '');
   bool isLoading = false;
   bool showPassword = true;
   TextEditingController email = TextEditingController();
