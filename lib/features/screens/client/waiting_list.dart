@@ -21,7 +21,7 @@ class WaitingListScreen extends StatefulWidget {
 class _WaitingListScreenState extends State<WaitingListScreen> {
   redirectScreen() async {
     await Future.delayed(const Duration(seconds: 5))
-        .then((value) => {Get.toNamed(AppPages.client)});
+        .then((value) => {Get.offAndToNamed(AppPages.client)});
   }
 
   @override
